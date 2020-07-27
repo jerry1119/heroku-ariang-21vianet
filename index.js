@@ -30,7 +30,7 @@ app.use('/rpc', (req, res) => {
 	req.pipe(request('http://localhost:6800/rpc')).pipe(res)
 })
 app.use(
-	'/downloads/' + ENCODED_SECRET,
+	'/downloads',
 	httpsrv({
 		basedir: __dirname + '/downloads'
 	})
@@ -88,7 +88,7 @@ panel.onclick=function(){
 	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(secret.value),'_blank')
 }
 downloads.onclick=function(){
-	open('/downloads/'+btoa(secret.value)+'/')
+	open('/downloads)
 }
 </script>
 `)
