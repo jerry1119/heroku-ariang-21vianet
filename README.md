@@ -24,6 +24,7 @@ This repository forked from maple3142/heroku-aria2c and can't merged.<br>
 2. Support mount double cloud drive. 支持双网盘挂载同步。
 3. Improve performance of the built-in Aria2c and Rclone. 大幅提升内置 Aria2c 和 Rclone 性能。
 4. Fix some little issues in fork source. 修复项目源的一些其他小问题。
+5. Add flexget rpc support. 添加对felxget xmlrpc请求的支持
 
 ## Connect Cloud Drive With Rclone 连接网盘
 
