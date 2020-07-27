@@ -1,4 +1,4 @@
-# Heroku-AriaNG-21vianet. Heroku-AriaNG 世纪互联版
+# Heroku-AriaNG-21vianet. Heroku-AriaNG
 One-click to build AriaNG on Heroku, and upload to cloud drive when the file download completed.<br>
 在 Heroku 上一键搭建 AriaNG ，并在文件下载完成后上传至网盘。
 
